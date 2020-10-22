@@ -1,0 +1,16 @@
+.flex-container {
+    justify-content: center;
+    display: -ms-flexbox;
+      -ms-flex-direction: row;
+      -ms-flex-wrap: wrap;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+.Item {
+    width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 170px;
+}

@@ -6,10 +6,11 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Alert from 'react-bootstrap/Alert';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from 'react-bootstrap/Button';
-import Tabs from 'react-bootstrap/Tabs'
-import Tab from 'react-bootstrap/Tab'
-import Card from 'react-bootstrap/Card'
-import soundcloud from './data/soundcloud.json'
+import Tabs from 'react-bootstrap/Tabs';
+import Tab from 'react-bootstrap/Tab';
+import Card from 'react-bootstrap/Card';
+import soundcloud from './data/soundcloud.json';
+import Chirbit from './components/Chirbit';
 
 
 function App() {
@@ -64,11 +65,17 @@ function App() {
             all of my music.
           </h4>                  
         </Tab>
-        <Tab eventKey="soundCloud" title="SoundCloud" className="Tab">
-          <h4 className="Centered" style={{ padding: "25px 50px 75px 100px" }}>
-            Here are the tracks that are left on SoundCloud after they have removed many of them
-            and also lowered the maximum data I am allowed to have on a free account.
-          </h4>
+        <Tab eventKey="soundCloud" title="SoundCloud" className="SoundCloudTab">
+          <Alert className="Centered" style={{ background: "#ff7700", padding: "25px 50px 25px 50px" }}>
+            <Alert.Heading>
+              Here are the tracks that are left on SoundCloud after they have removed many of them
+              and also lowered the maximum data I am allowed to have on a free account. I do not
+              endorse most of this music as I think most of it isn't that good and in all honesty
+              is kind of embarassing; however, much of it was created before I was an adult.... so...
+              I think that should be taken into acccount when listening to the trash. BTW I know
+              this color is atrocious but this is the color that SoundCloud chose!
+            </Alert.Heading>
+          </Alert>
           <div className="flex-container">
           {
             soundcloud.map((item) => {
@@ -92,9 +99,12 @@ function App() {
           copywrites. I will probably continue to update this in the future if I release any more.
         </Tab>
         <Tab eventKey="chirbit" title="Chirbit">
-          This was a solution to get rid of SoundCloud at one point but I ended up abandoning it
-          rather quickly since there was no community around it and the UI was poor.
-        </Tab>
+          <div>
+            This was a solution to get rid of SoundCloud at one point but I ended up abandoning it
+            rather quickly since there was no community around it and the UI was poor.
+          </div>
+          <Chirbit/>
+        </Tab>        
       </Tabs>
     </div>
   );
