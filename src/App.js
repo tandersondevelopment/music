@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import ReactPlayer from 'react-player/lazy'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 import Alert from 'react-bootstrap/Alert';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
@@ -10,6 +8,8 @@ import Chirbit from './components/Chirbit';
 import JumboImage from './components/JumboImage';
 import TabBody from './components/TabBody';
 import * as Constants from './constants';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 function App() {
   const [activeSong, setActiveSong] = useState("");
