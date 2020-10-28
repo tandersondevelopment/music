@@ -16,7 +16,7 @@ export default function SoundCard(props) {
               onClick={() => props.setActiveSong(props.songUrl)}>
                 Play!
             </Button>
-            <Alert variant="secondary" className = "alert">{props.genre}</Alert>
+            <Alert variant="secondary" className="alert">{props.genre}</Alert>
             <Card.Title>{props.title}</Card.Title>
             <Card.Text>{props.description}</Card.Text>                  
         </Card>

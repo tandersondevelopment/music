@@ -13,9 +13,7 @@ export default function TabBody(props) {
             setApiData(result);
         }
         getData();
-    }, [props]);
-
-    
+    }, [props]);    
 
     return(
         <div>
