@@ -1,90 +1,129 @@
 [
     {
         "id": 1,
-        "url": "https://chirb.it/wp/KxvDA6"
+        "url": "https://chirb.it/wp/KxvDA6",
+        "title": "Oldschool Overdrive",
+        "genre": "Mixtape"
     },
     {
         "id": 2,
-        "url": "https://chirb.it/wp/sKGrJc"
+        "url": "https://chirb.it/wp/sKGrJc",
+        "title": "Housey Mousy Turkey Day Mix",
+        "genre": "Mixtape"
+        
     },
     {
         "id": 3,
-        "url": "https://chirb.it/wp/tgGmCd"
+        "url": "https://chirb.it/wp/tgGmCd",
+        "title": "Summer ~Step 2K12",
+        "genre": "Mixtape"
     },
     {
         "id": 4,
-        "url": "https://chirb.it/wp/dJ3P3e"
+        "url": "https://chirb.it/wp/dJ3P3e",
+        "title": "Animix - 13 Minutes w/ 10 Songs",
+        "genre": "Mixtape"
     },
     {
         "id": 5,
-        "url": "https://chirb.it/wp/rn5Eqc"
+        "url": "https://chirb.it/wp/rn5Eqc",
+        "title": "R3: Rock Mix",
+        "genre": "Mixtape"
     },
     {
         "id": 6,
-        "url": "https://chirb.it/wp/kN9ebw"
+        "url": "https://chirb.it/wp/kN9ebw",
+        "title": "LET THERE BE HOUSE!",
+        "genre": "House"
     },
     {
         "id": 7,
-        "url": "https://chirb.it/wp/0H7xDr"
+        "url": "https://chirb.it/wp/0H7xDr",
+        "title": "The Mothman Cometh",
+        "genre": "Movie Remix"
     },
     {
         "id": 8,
-        "url": "https://chirb.it/wp/McJgr9"
+        "url": "https://chirb.it/wp/McJgr9",
+        "title": "Escape (NR Remix 2003)",
+        "genre": "Remix"
     },
     {
         "id": 9,
-        "url": "https://chirb.it/wp/C75cLv"
-    },
-    {
-        "id": 10,
-        "url": "https://chirb.it/wp/fqErDw"
+        "url": "https://chirb.it/wp/C75cLv",
+        "title": "Mega Aerodynamic Man Legends! 2002",
+        "genre": "Video Game Remix"
     },
     {
         "id": 11,
-        "url": "https://chirb.it/wp/1d1nnt"
+        "url": "https://chirb.it/wp/1d1nnt",
+        "title": "CCT - Cara's Classic Trance 2005",
+        "genre": "Mixtape"
     },
     {
         "id": 12,
-        "url": "https://chirb.it/wp/8e9Hc9"
+        "url": "https://chirb.it/wp/8e9Hc9",
+        "title": "Live Mix 2005",
+        "genre": "Live Mix"
     },
     {
         "id": 13,
-        "url": "https://chirb.it/wp/KL0n5v"
+        "url": "https://chirb.it/wp/KL0n5v",
+        "title": "Dubsteppin",
+        "genre": "Mixtape"
     },
     {
         "id": 14,
-        "url": "https://chirb.it/wp/G9I2EJ"
+        "url": "https://chirb.it/wp/G9I2EJ",
+        "title": "GoTheFK2Sleep-LQ128KBS",
+        "genre": "Mixtape"
     },
     {
         "id": 15,
-        "url": "https://chirb.it/wp/P3sKs7"
+        "url": "https://chirb.it/wp/P3sKs7",
+        "title": "Breeze Cut Edit",
+        "genre": "Electro"
     },
     {
         "id": 16,
-        "url": "https://chirb.it/wp/wysnpD"
+        "url": "https://chirb.it/wp/wysnpD",
+        "title": "Breeze",
+        "genre": "Electro"
     },
     {
         "id": 17,
-        "url": "https://chirb.it/wp/4yMJA5"
+        "url": "https://chirb.it/wp/4yMJA5",
+        "title": "Celtic Waltz",
+        "genre": "Original Song"
     },
     {
         "id": 18,
-        "url": "https://chirb.it/wp/G4HhDI"
+        "url": "https://chirb.it/wp/G4HhDI",
+        "title": "Forgotten Church",
+        "genre": "Original Song"
     },
     {
         "id": 19,
-        "url": "https://chirb.it/wp/I9AvE3"
+        "url": "https://chirb.it/wp/I9AvE3",
+        "title": "Faster Pace",
+        "genre": "Original Song"
     },
     {
         "id": 20,
-        "url": "https://chirb.it/wp/2daOnA"
+        "url": "https://chirb.it/wp/2daOnA",
+        "title": "Bells Of Town",
+        "genre": "Original Song"
     },
     {
         "id": 21,
-        "url": "https://chirb.it/wp/HnBLEM"
+        "url": "https://chirb.it/wp/HnBLEM",
+        "title": "Say A Little Prayer For Me",
+        "genre": "Original Song"
     },
     {
         "id": 22,
-        "url": "https://chirb.it/wp/q8fBqJ"
+        "url": "https://chirb.it/wp/q8fBqJ",
+        "title": "I WUB DUB",
+        "genre": "Mixtape"
     }
 ]

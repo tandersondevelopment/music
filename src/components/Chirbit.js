@@ -9,7 +9,13 @@ export default class Chirbit extends Component {
             {
             chirbit.map((item) => {
               return (
-                <iframe className="Item" title={item.id} src={item.url} scrolling="NO" frameborder="0">
+                <iframe 
+                  className="item"
+                  key={item.id} 
+                  title={item.id} 
+                  src={item.url} 
+                  scrolling="NO" 
+                  frameBorder="0">
                     If you can not see this chirbit, listen to it here {item.url}
                 </iframe>
               )

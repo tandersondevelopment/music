@@ -1,0 +1,70 @@
+.center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding-top: 200px;
+}
+
+/* JUMBOTRON STYLE HERE */
+.jumbotron{
+    background: 
+  linear-gradient(
+    rgba(0, 0, 250, 0.25), 
+    rgba(125, 250, 250, 0.45)
+  ),
+  url(https://images2.alphacoders.com/598/thumb-1920-598673.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color:white !important;
+  height:800px;
+  width:100%;
+  margin-bottom: 0px;
+  }
+  
+  /* BUTTON STYLE HERE */
+  .btn{
+      margin-right:10px;
+      justify-content: center;
+  }
+  .btn-outline-primary{
+    border-color: white;
+    color:white;
+    background-color:transparent;
+    margin-top:30px;
+    font-weight:100;
+  }
+  .btn-outline-primary:hover{
+    border-color: transparent;
+    color:black;
+    background-color:white;
+  }
+  .btn-outline-primary:active{
+    border-color: transparent;
+    color:black;
+    background-color:white;
+    padding:9px 20px 9px 20px;
+  }
+  
+  .title{
+    margin-top:10vh;
+  }
+  .text_margin{
+      width:70vw;
+      margin: 0 auto;
+  }
+  .string-1{
+    padding-top:30px;
+    width:500px;
+    margin:0 auto;
+    font-weight:100;
+    margin-top:-35px;
+  }
+  
+  .content{
+    margin:10%;
+  }
+  br{
+    margin:20px;
+  }

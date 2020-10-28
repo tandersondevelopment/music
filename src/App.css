@@ -1,48 +1,27 @@
-.SoundCloudTab {
-  background-color: #ff7700;
+.tab {
+  background-color: lightblue;
 }
 
-.SoundCloudButton {
-  background-color: #ff9940;
-}
-
-.Centered {
+.centered {
   text-align: center;
-  text-align: center;  
   margin-bottom: 0px;
 }
 
-.ExtraCentered {
+.extra-centered {
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
 }
 
-.TitleColumn {
-  width: 15%;
-}
-
-.GenreColumn {
-  width: 10%;
-}
-
-.DescriptionColumn {
-  width: 55%;
-}
-
-.PlayColumn {
-  width: 5%;
+.react-player {
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
-  text-align: center;
+  height: 180px;
 }
 
-.flex-container {
-  justify-content: center;
-  display: -ms-flexbox;
-	-ms-flex-direction: row;
-	-ms-flex-wrap: wrap;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 100%;
+.nav-tabs > li.active > a {
+  color: #3c5a78;
+  font-size: 16px;
+  font-weight: bold;
 }
