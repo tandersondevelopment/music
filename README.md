@@ -6,9 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Current Completion Status
 
-Incomplete initial release.
-Awaiting personal API.
+Incomplete initial release: awaiting personal API to consume for Self Hosting tab and Track CRUD modal.
 
-Second Release TODO:
+## Next Release TODO
 Cleaner and nicer looking track cards preferablly with animations.
 Lazy loading tabs.
